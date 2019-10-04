@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import AlbumsListContainer from './components/AlbumsListContainer';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <h1>Photoalbum</h1>
       </header>
       <main>
-
+        <AlbumsListContainer/>
       </main>
     </div>
   );
